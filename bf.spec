@@ -1,5 +1,5 @@
 Summary:	Brainfuck interpreter
-Summary(pl.UTF-8):   Interpreter języka Brainfuck
+Summary(pl.UTF-8):	Interpreter języka Brainfuck
 Name:		bf
 Version:	20041219
 Release:	1
