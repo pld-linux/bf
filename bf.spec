@@ -1,5 +1,5 @@
 Summary:	Brainfuck interpreter
-Summary(pl):	Interpreter jêzyka Brainfuck
+Summary(pl.UTF-8):   Interpreter jÄ™zyka Brainfuck
 Name:		bf
 Version:	20041219
 Release:	1
@@ -14,8 +14,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 bf is a simple, fast interpreter for the esoteric programming language
 Brainfuck.
 
-%description -l pl
-bf jest prostym, szybkim interpreterem ezoterycznego jêzyka
+%description -l pl.UTF-8
+bf jest prostym, szybkim interpreterem ezoterycznego jÄ™zyka
 programowania Brainfuck.
 
 %prep
