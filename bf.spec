@@ -1,13 +1,13 @@
 Summary:	Brainfuck interpreter
 Summary(pl.UTF-8):	Interpreter języka Brainfuck
 Name:		bf
-Version:	20041219
+Version:	20080330
 Release:	1
 License:	GPL
 Group:		Development/Languages
-Source0:	http://noxa.de/~sbeyer/debian/dists/unstable/main/source/%{name}_%{version}.tar.gz
-# Source0-md5:	9930164483e23b7ef50892fe96e63211
-URL:		http://noxa.de/~sbeyer/programming/projects/?dir=tools#bf
+Source0:	http://pkqs.net/~sbeyer/tools/bf/%{name}_%{version}.tar.gz
+# Source0-md5:	a69f4479d2041d86109f17fd35202013
+URL:		http://pkqs.net/~sbeyer/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -19,7 +19,7 @@ bf jest prostym, szybkim interpreterem ezoterycznego języka
 programowania Brainfuck.
 
 %prep
-%setup -q
+%setup -q -n %{name}_%{version}
 
 %build
 %{__make} \
